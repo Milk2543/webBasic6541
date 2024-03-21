@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #c5e6fa;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 35px 55px #000;
+}
+
+.container .left-Side {
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    
+}
+ 
+.profileText .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    color: #000;
+    font-size: 30px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 1.4em;
+    border-bottom: 5px solid rgba(5, 5, 5, 0.964)
+}
+
+.interests .IN {
+    color: #000;
+    font-size: 25px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 1.4em;
+    border-bottom: 5px solid rgba(5, 5, 5, 0.964)
+    
+}
+
+.interests .De {
+    color: #000;
+    font-size: 20px;
+    margin-top: 4px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileInfo .PR {
+    color: #000;
+    font-size: 25px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 1.4em;
+    border-bottom: 5px solid rgba(5, 5, 5, 0.964)
+}
+
+.profileInfo .My {
+    color: #000;
+    font-size: 20px;
+    margin-top: 4px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+
+.Educationhistory .ED {
+    color: #000;
+    font-size: 25px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 1.4em;
+    border-bottom: 5px solid rgba(5, 5, 5, 0.964)
+}
+
+.Educationhistory .pw {
+    color: #000;
+    font-size: 20px;
+    margin-top: 4px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.contactInfo .title {
+    color: #000;
+    font-size: 25px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 1.4em;
+    border-bottom: 5px solid rgba(5, 5, 5, 0.964)
+}
+
+.container .right-Side {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.skills .SK {
+    color: #000;
+    font-size: 25px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600px;
+    line-height: 1.8em;
+    border-bottom: 5px solid rgba(5, 5, 5, 0.964)
+}
+.skills .percent {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+
+
